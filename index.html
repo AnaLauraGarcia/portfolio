@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header-container">
+        <header>
+            <div class="logo">
+                <a href="#">ANA LAURA</a>
+            </div>    
+                <nav id="nav">
+                    <ul>                       
+                        <li><a href="#start" onclick="select()">START</a></li>
+                        <li><a href="#aboutme" onclick="select()">ABOUT ME</a></li>
+                        <li><a href="#skills" onclick="select()">SKILLS</a></li>
+                        <li><a href="#curriculum" onclick="select()">CURRICULUM</a></li>
+                        <li><a href="#portfolio" onclick="select()">PORTFOLIO</a></li>
+                        <li><a href="#contact" onclick="select()">CONTACT</a></li>
+                    </ul>
+                </nav>
+                <div class="responsive-nav" onclick="showHideMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            
+
+        </header>
+    </div>
+
+    <!-- Start Section -->
+    <section id="start" class="start">
+        <div class="banner-content">
+            <div class="img-container">
+                <img src="img/hero.png" alt="">
+            </div>
+            <h1>ANA LAURA GARCIA</h1>
+            <h2>Systems Analyst</h2>
+            <div class="networks">
+                <!-- <a href="#"><i class="fa-brands fa-facebook-f"></i></a> -->
+                <!-- <a href="#"><i class="fa-brands fa-twitter"></i></a> -->
+                <!-- <a href="#"><i class="fa-solid fa-rss"></i></a> -->
+                <a href="#"><i class="fa-regular fa-envelope"></i></a>               
+                <a href="#"><i class="fa-brands fa-discord"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="aboutme" class="aboutme">
+        <div class="content-section">
+            <h2>About Me</h2>
+            <p><span>Hello! My name's Ana Laura Garcia. </span>
+                I'm a Systems Analysis student in my final academic period, with knowledge gained in Data Analysis, Data Science, Full Stack Python, Databases, Machine Learning, and an interest in Web Development, Back End Programming, and web services integration.</p>  
+                <p>I have experience in Python, C, PHP, JavaScript, HTML, CSS, and SQL, as well as in the use of tools like XAMPP, MySQL Workbench, Docker, Visual Studio Code, and GitHub. </p><p>I am proactive in my approach to learning various skills that enhance my knowledge, which can be applied to add value to the outcomes of my projects.</p> 
+            
+            <div class="row">
+                <!-- Personal Information -->
+                <div class="column">
+                    <h3>Personal Information</h3>
+                    <ul>
+                        <li>
+                            <strong>Birthday</strong>
+                            25-01-1991
+                        </li>
+                        <li>
+                            <strong>Phone</strong>
+                            +54 11 7367 9577
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            analauragarcia.al@gmail.com
+                        </li>
+                        <li>
+                            <strong>Address</strong>
+                            Buenos Aires, Argentina
+                        </li>
+                        <li>
+                            <strong>Position</strong>
+                            <span>SOFTWARE DEVELOPER</span>
+                        </li>
+                    </ul>
+                </div>
+                <!-- intereses -->
+                <div class="column">
+                   <h3>Interests</h3>
+                   <div class="interests-container">  
+                        <div class="interests">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>GAMES</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSIC</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>TRAVEL</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-cat"></i>
+                            <span>CATS</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-seedling"></i>
+                            <span>NATURE</span>
+                        </div>     
+                        <!-- <div class="interests">
+                            <i class="fa-solid fa-chalkboard"></i>
+                            <span>LEARN</span>
+                        </div>               -->
+                    </div>   
+                </div>
+            </div>
+
+            <button>
+                Download CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Skill Section -->
+    <section class="skills" id="skills">
+        <div class="content-section">
+            <h2>Skills</h2>
+            <div class="row">
+                <!-- Technical skill -->
+                <div class="column">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="skill-bar">
+                            <div class="progress htmlcss">
+                                <span>72%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="skill-bar">
+                            <div class="progress python">
+                                <span>79%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="skill-bar">
+                            <div class="progress javascript">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PHP</span>
+                            <div class="skill-bar">
+                                <div class="progress php">
+                                    <span>65%</span>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="skill">
+                    <span>Database Management</span>
+                        <div class="skill-bar">
+                            <div class="progress database">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Professional Skills -->
+                <div class="column">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Leadership</span>
+                        <div class="skill-bar">
+                            <div class="progress leadership">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Project Management</span>
+                        <div class="skill-bar">
+                            <div class="progress project-management">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Time Management</span>
+                        <div class="skill-bar">
+                            <div class="progress time-management">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Effective Communication</span>
+                        <div class="skill-bar">
+                            <div class="progress effective-communication">
+                                <span>92%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Adaptability</span>
+                        <div class="skill-bar">
+                            <div class="progress adaptability">
+                                <span>83%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skill Section -->
+    <section class="curriculum" id="curriculum">
+        <div class="content-section">
+            <h2>Curriculum</h2>
+            <h3>Educación</h3>
+            <div class="row">
+                <div class="left-c column">
+                    <div class="space"></div>
+                    <div class="left-i item">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="house">Universidad de Oxford</span>
+                        <span class="date">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="connectorl">
+                            <div class="circlel"></div>
+                        </div>
+                    </div>
+                    <div class="left-i item">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="house">Universidad de Oxford</span>
+                        <span class="date">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="connectorl">
+                            <div class="circlel"></div>
+                        </div>
+                    </div>
+                    <div class="left-i item">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="house">Universidad de Oxford</span>
+                        <span class="date">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="connectorl">
+                            <div class="circlel"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right-c column">
+                    <div class="space"></div>
+                    <div class="right-i item">
+                        <h4>Front Developer</h4>
+                        <span class="house">Nombre de Compañía</span>
+                        <span class="date">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="connectorr">
+                            <div class="circler"></div>
+                        </div>
+                    </div>
+                    <div class="right-i item">
+                        <h4>Front Developer</h4>
+                        <span class="house">Nombre de Compañía</span>
+                        <span class="date">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="connectorr">
+                            <div class="circler"></div>
+                        </div>
+                    </div>
+                    <div class="right-i item">
+                        <h4>Front Developer</h4>
+                        <span class="house">Nombre de Compañía</span>
+                        <span class="date">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="connectorr">
+                            <div class="circler"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- SECCION PORTFOLIO -->
+     <section id="portfolio" class="portfolio">
+        <div class="content-section">
+            <h2>PORTFOLIO</h2>
+            <div class="gallery">
+                <div class="project">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="img/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION  -->
+    <section id="contact" class="contact">
+        <div class="content-section">
+            <h2>CONTACT</h2>
+            <div class="row">
+                <!-- Form -->
+                <div class="column">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="column">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Nicaragua 159, San Rafael Mza
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: 2384 - 4343443 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: cw@example.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#start" class="up">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="networks">
+            <a href="#"><i class="fa-regular fa-envelope"></i></a>               
+            <a href="#"><i class="fa-brands fa-discord"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
