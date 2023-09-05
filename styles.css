@@ -626,6 +626,12 @@ html{
     margin-bottom: 0px;
 }
 
+.portfolio .gallery .project .overlay p{
+    font-style: italic; 
+    font-size: 0.7em;
+
+}
+
 /* SECCION CONTACTO */
 .contact{
     background-image: url(img/contact_bg.png);
