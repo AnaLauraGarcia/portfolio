@@ -337,7 +337,7 @@ html{
 }
 @keyframes htmlcss {
     0%{width: 0%;}
-    100%{width: 72%;}
+    100%{width: 79%;}
 }
 
 .skills .skill .python{
@@ -346,7 +346,7 @@ html{
 }
 @keyframes python {
     0%{width: 0%;}
-    100%{width: 79%;}
+    100%{width: 80%;}
 }
 
 .skills .skill .javascript{
@@ -355,7 +355,7 @@ html{
 }
 @keyframes javascript {
     0%{width: 0%;}
-    100%{width: 60%;}
+    100%{width: 65%;}
 }
 
 .skills .skill .php{
@@ -373,7 +373,7 @@ html{
 }
 @keyframes database {
     0%{width: 0%;}
-    100%{width: 70%;}
+    100%{width: 85%;}
 }
 
 .skills .skill .leadership{
