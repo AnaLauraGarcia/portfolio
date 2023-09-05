@@ -39,3 +39,81 @@ function skillsEffects(){
 window.onscroll = function(){
     skillsEffects();
 } 
+
+const copyEmailButtonHeader = document.getElementById('copyEmailHeader');
+const copiedEmailMessageHeader = document.getElementById('copiedEmailMessageHeader');
+const emailIconHeader = document.getElementById('emailIcon');
+
+copyEmailButtonHeader.addEventListener('click', function () {
+    const email = 'analauragarcia.al@gmail.com'; 
+    const elementoTemporal = document.createElement('textarea');
+    elementoTemporal.value = email;
+    document.body.appendChild(elementoTemporal);
+    elementoTemporal.select();
+    document.execCommand('copy');
+    document.body.removeChild(elementoTemporal);
+    copiedEmailMessageHeader.style.display = 'block';
+
+    setTimeout(function () {
+        copiedEmailMessageHeader.style.display = 'none';
+    }, 2500); 
+});
+
+const copyEmailButtonFooter = document.getElementById('copyEmailFooter');
+const copiedEmailMessageFooter = document.getElementById('copiedEmailMessageFooter');
+const emailIconFooter = document.getElementById('emailIcon');
+
+copyEmailButtonFooter.addEventListener('click', function () {
+    const email = 'analauragarcia.al@gmail.com'; 
+    const elementoTemporal = document.createElement('textarea');
+    elementoTemporal.value = email;
+    document.body.appendChild(elementoTemporal);
+    elementoTemporal.select();
+    document.execCommand('copy');
+    document.body.removeChild(elementoTemporal);
+    copiedEmailMessageFooter.style.display = 'block';
+
+    setTimeout(function () {
+        copiedEmailMessageFooter.style.display = 'none';
+    }, 2500); 
+});
+
+
+const copyDiscordButtonHeader = document.getElementById('copyDiscordHeader');
+const copiedDiscordMessageHeader = document.getElementById('copiedDiscordMessageHeader');
+const discordIconHeader = document.getElementById('discordIcon');
+
+copyDiscordButtonHeader.addEventListener('click', function () {
+    const email = 'garcia.ana'; 
+    const elementoTemporal = document.createElement('textarea');
+    elementoTemporal.value = email;
+    document.body.appendChild(elementoTemporal);
+    elementoTemporal.select();
+    document.execCommand('copy');
+    document.body.removeChild(elementoTemporal);
+    copiedDiscordMessageHeader.style.display = 'block';
+
+    setTimeout(function () {
+        copiedDiscordMessageHeader.style.display = 'none';
+    }, 2500); 
+});
+
+
+const copyDiscordButtonFooter = document.getElementById('copyDiscordFooter');
+const copiedDiscordMessageFooter = document.getElementById('copiedDiscordMessageFooter');
+const discordIconFooter = document.getElementById('discordIcon');
+
+copyDiscordButtonFooter.addEventListener('click', function () {
+    const email = 'garcia.ana'; 
+    const elementoTemporal = document.createElement('textarea');
+    elementoTemporal.value = email;
+    document.body.appendChild(elementoTemporal);
+    elementoTemporal.select();
+    document.execCommand('copy');
+    document.body.removeChild(elementoTemporal);
+    copiedDiscordMessageFooter.style.display = 'block';
+
+    setTimeout(function () {
+        copiedDiscordMessageFooter.style.display = 'none';
+    }, 2500); 
+});

@@ -120,8 +120,18 @@ html{
     transition: .3s;
 }
 
+
 .start .banner-content .networks a:hover {
     background-color: #1cb698;
+}
+
+.start .banner-content  .networks .copiedMessage{
+    font-style: italic;
+    color: #1CB698;
+    width: auto;
+    margin: 0 auto; 
+    font-family: 'Righteous';
+
 }
 
 .aboutme{
@@ -243,6 +253,10 @@ html{
 
 .aboutme button:hover .overlay{
     width: 100%;
+}
+
+.aboutme a{
+    text-decoration: none;
 }
 
 /* Skill Section */ 
@@ -751,6 +765,17 @@ footer .up{
     line-height: 50px;
     font-size: 18px;
 }
+
+footer .networks .copiedMessage{
+    font-style: italic;
+    color: #1CB698;
+    width: auto;
+    margin: 0 auto; 
+    font-family: 'Righteous';
+
+}
+
+
 
 /* RESPONSIVE SECTION */
 @media screen and (max-width:980px){
