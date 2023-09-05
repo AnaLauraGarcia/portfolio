@@ -162,6 +162,7 @@ html{
 }
 
 .aboutme .row .column h3{
+    margin-top: 30px;
     font-size: 20px;
     font-family: 'Righteous';
     margin-bottom: 25px;
@@ -432,6 +433,10 @@ html{
 
 .curriculum .space{
     padding: 15px 0  ;
+}
+
+.curriculum .spaceSkill{
+    padding: 11px 0  ;
 }
 
 .curriculum .row{
