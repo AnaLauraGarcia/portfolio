@@ -617,6 +617,7 @@ html{
 .portfolio .gallery .project .overlay h3{
     margin-bottom: 20px;
     transition: 1s;
+    text-decoration: none;
 }
 
 .portfolio .gallery .project .overlay:hover{
@@ -625,6 +626,7 @@ html{
 
 .portfolio .gallery .project .overlay:hover h3{
     margin-bottom: 0px;
+    text-decoration: none;
 }
 
 .portfolio .gallery .project .overlay p{
@@ -635,7 +637,7 @@ html{
 }
 
 .portfolio .gallery .project .overlay .space{
-    padding: 15px 0  ;
+    padding: 20px 0  ;
 }
 
 /* SECCION CONTACTO */
