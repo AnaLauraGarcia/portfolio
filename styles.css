@@ -611,6 +611,7 @@ html{
     font-size: 18px;
     letter-spacing: 3px;
     opacity: 0;
+    color: white;
 }
 
 .portfolio .gallery .project .overlay h3{
@@ -629,7 +630,12 @@ html{
 .portfolio .gallery .project .overlay p{
     font-style: italic; 
     font-size: 0.7em;
+    text-decoration: none;
 
+}
+
+.portfolio .gallery .project .overlay .space{
+    padding: 20px 0  ;
 }
 
 /* SECCION CONTACTO */
