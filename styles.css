@@ -485,20 +485,22 @@ html{
 }
 
 .curriculum .row .item h4{
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 10px;
 }
 
 .curriculum .row .item .house{
     color: #1CB698;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: bold;
     display: block;
+    margin-bottom: 10px;
 }
 
 .curriculum .row .item .date{
     display: block;
     color: #1CB698;
+    font-size: 14px;
     margin-bottom: 10px;
 }
 
